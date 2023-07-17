@@ -1,4 +1,4 @@
-const reducer = (state=0,action)=>{
+const AmountChange = (state=0,action)=>{
     if(action.type==='add'){
         return state+action.payload
     }
@@ -9,4 +9,4 @@ const reducer = (state=0,action)=>{
         return state
     }
 }
-export default reducer
+export default AmountChange
